@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    display: flex;
+}
+
+.searchBar {
+    background-color:rgb(32, 32, 32);
+    color: white;
+    font-size:18px;
+    font-weight:450;
+    height: auto;
+    margin: auto;
+    
+}
+
+header h2 {
+    color: white;
+    align-items: end;
+    margin: auto;
+}
+
+.degreesContainer {
+    width: 100%;
+    display: flex;
+    grid-row: auto;
+    justify-content: end;
+    gap: 10px;
+    margin: auto
+}
+
+.searchBar::placeholder {
+    color: white;
+}
+
+@media (max-width: 700px) {
+    header {
+        margin: auto;
+        display: flex; 
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .degreesContainer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+form button, form input {
+    margin: auto;
+    height: auto;
+}
+
+form button {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(32, 32, 32);
+}

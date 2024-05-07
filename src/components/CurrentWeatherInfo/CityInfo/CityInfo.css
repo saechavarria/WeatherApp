@@ -1,0 +1,61 @@
+.weatherContainer h1,
+.weatherContainer h2,
+.weatherContainer h4 {
+    color: white;
+    margin: 0;
+}
+
+.weatherContainer h1 {
+    margin-top: 100px;
+}
+
+.weatherContainer .weatherIconContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.weatherContainer .weatherIconContainer img{
+    width: 100px; /* Ancho deseado */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+
+.weatherContainer .cityInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.weatherContainer .cityInfo p {
+    margin: 0; /* Simplificado */
+}
+
+.temp {
+    margin: 0; /* Simplificado */
+}
+
+.weatherContainer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media (max-width: 700px) {
+
+    .weatherContainer .cityInfo{
+        text-align: center;
+    }
+    .weatherContainer h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+}
